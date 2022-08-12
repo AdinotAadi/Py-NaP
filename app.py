@@ -4,8 +4,12 @@ from modules.encrdecr import *
 if __name__ == "__main__":
     n = 32
     char = randstr(n)
-    print(char)
+    print(f"Generated string: {char}")
     encrypted = encr(char)
-    print(encrypted)
+    print(f"Encrypted string: {encrypted}")
     decrypted = decr(encrypted)
-    print(decrypted)
+    print(f"Decrypted string: {decrypted}")
+    if(char == decrypted):
+        print("True")
+    else:
+        print("False")
