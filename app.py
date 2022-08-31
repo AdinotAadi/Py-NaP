@@ -2,6 +2,8 @@ from modules.randomString import *
 from modules.encrdecr import *
 
 if __name__ == "__main__":
+    print("Enter the master password: ")
+    passwd = input()
     n = 32
     char = randstr(n)
     print(f"Generated string: {char}")

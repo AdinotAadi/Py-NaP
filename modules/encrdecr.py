@@ -1,15 +1,19 @@
+from logging import exception
 from cryptography.fernet import Fernet
 
+with open('key.key', 'rb')as file:
+    key = file.read()
 
-key = Fernet.generate_key()
-fernet = Fernet(key)
-
+f = Fernet(key)
 
 def encr(message):
-    encMessage = fernet.encrypt(message.encode())
+    encMessage = f.encrypt(message.encode())
     return encMessage
 
 
 def decr(encmsg):
-    decmsg = fernet.decrypt(encmsg).decode()
-    return decmsg
+    try:
+        decmsg = f.decrypt(encmsg).decode()
+        return decmsg
+    except exception as e:
+        print("Invalid master password.")
