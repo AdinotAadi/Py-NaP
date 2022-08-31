@@ -1,4 +1,4 @@
-# NaP.Py - a Notes and Passwords Management System
+# Py.NaP - a Notes and Passwords Management System
 
 
 ## Key Features
@@ -14,5 +14,3 @@ Following are the string constants used to generate random passwords.
 - ascii_letters : contain both lowercase and uppercase letters.
 - digits : contains digits '0123456789'
 - punctuation : contains characters like '!”#$%&'()*+,-./:;<=>?@[\]^_`{|}~'
-
-
