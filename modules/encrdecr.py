@@ -6,14 +6,13 @@ with open('key.key', 'rb')as file:
 
 f = Fernet(key)
 
+
 def encr(message):
-    encMessage = f.encrypt(message.encode())
-    return encMessage
+    return (f.encrypt(message.encode()))
 
 
 def decr(encmsg):
     try:
-        decmsg = f.decrypt(encmsg).decode()
-        return decmsg
+        return (f.decrypt(encmsg).decode())
     except exception as e:
-        print("Invalid master password.")
+        print(e)

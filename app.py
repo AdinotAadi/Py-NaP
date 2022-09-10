@@ -3,7 +3,7 @@ from modules.encrdecr import *
 
 if __name__ == "__main__":
     print("Enter the master password: ")
-    passwd = input()
+    passwd = input("Enter the master password:")
     n = 32
     char = randstr(n)
     print(f"Generated string: {char}")
