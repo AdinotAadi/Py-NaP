@@ -1,7 +1,8 @@
 from modules.randomString import *
 from modules.encrdecr import *
 
-if __name__ == "__main__":
+
+def main():
     print("Enter the master password: ")
     passwd = input("Enter the master password:")
     n = 32
@@ -11,7 +12,11 @@ if __name__ == "__main__":
     print(f"Encrypted string: {encrypted}")
     decrypted = decr(encrypted)
     print(f"Decrypted string: {decrypted}")
-    if(char == decrypted):
+    if (char == decrypted):
         print("True")
     else:
         print("False")
+
+
+if __name__ == "__main__":
+    main()
