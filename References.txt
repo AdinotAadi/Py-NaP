@@ -1,0 +1,7 @@
+- Revisiting Security Vulnerabilities in Commercial Password Managers (https://arxiv.org/abs/2003.01985) (IFIP SEC 2020)
+- That Was Then, This Is Now: A Security Evaluation of Password Generation, Storage, and Autofill in Browser-Based Password Managers (https://arxiv.org/abs/1908.03296) (USENIX SEC 2020)
+- Why Older Adults (Don’t) Use Password Managers (https://arxiv.org/abs/2010.01973v1) (USENIX SEC 2021)
+- Towards Formal Verification of Password Generation Algorithms used in Password Managers (https://arxiv.org/abs/2106.03626v2) (IFM 2021)
+- Horcrux: A Password Manager for Paranoids (https://arxiv.org/abs/1706.05085) (Oct'-17)
+- AutoPass: An Automatic Password Generator (https://arxiv.org/abs/1703.01959) (IEEE-17)
+- Password Generators: Old Ideas and New (https://arxiv.org/abs/1607.04421) (WISTP 2016)

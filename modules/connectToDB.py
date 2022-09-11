@@ -1,11 +1,18 @@
 import mysql.connector
 
 
-def dbconnect():
+def dbConnect():
     connector = mysql.connector.connect(
         host="localhost",
         user="root",
         passwd="tiger",
         database="test")
-    cur = connector.connect()
-    return cur
+    cur = connector.cursor()
+
+
+def main():
+    dbConnect()
+
+
+if __name__ == "__main__":  
+    main()

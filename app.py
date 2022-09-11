@@ -1,9 +1,9 @@
 from modules.randomString import *
 from modules.encrdecr import *
+from modules.interactDB import *
 
 
 def main():
-    print("Enter the master password: ")
     passwd = input("Enter the master password:")
     n = 32
     char = randstr(n)
