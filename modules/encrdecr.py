@@ -8,11 +8,11 @@ f = Fernet(key)
 
 
 def encr(message):
-    return (f.encrypt(message.encode()))
+    return f.encrypt(message.encode())
 
 
 def decr(encmsg):
     try:
-        return (f.decrypt(encmsg).decode())
+        return f.decrypt(encmsg).decode()
     except exception as e:
         print(e)
