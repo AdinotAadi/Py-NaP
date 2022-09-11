@@ -12,7 +12,7 @@ def main():
     print(f"Encrypted string: {encrypted}")
     decrypted = decr(encrypted)
     print(f"Decrypted string: {decrypted}")
-    if (char == decrypted):
+    if char == decrypted:
         print("True")
     else:
         print("False")
